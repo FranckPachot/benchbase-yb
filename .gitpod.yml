@@ -5,6 +5,6 @@
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 
 tasks:
-  - init: sdk install java 21-oracle -y && ./mvnw install -DskipTests=false
+  - init: yes | sdk install java 21-oracle -y && ./mvnw install -DskipTests=false
 
 
